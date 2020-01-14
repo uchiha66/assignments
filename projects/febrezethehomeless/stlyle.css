@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(18, 234, 241);
+}
+h1{
+    color: blue;
+    border: 2px dotted red;
+    text-align: center;
+    background-color: yellow;
+}
+#smellz{
+    border: 30px solid green;
+    height: 60px;
+    overflow: scroll;
+
+}
+section{
+    width: 60%;
+    margin-left: 20%;
+}
+.sec2{
+    border: 6px solid crimson;
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 20px;
+}
+button{
+    border:dotted 8px hotpink;
+    background-color: gold;
+}
+.hom1{
+     border: 6px solid rgb(219, 4, 4);
+     margin-top: 10px;
+     margin-left: 10px;
+     width: 50vw;
+     
+
+}
+@media only screen and (min-width: 786px){
+    .sec2{
+        border: 8px solid crimson;
+        display: flex;
+        justify-content:space-evenly;
+        margin-top: 10px;
+        width: 20%;
+    }    
+ 
+
+        
+
+
+
+}

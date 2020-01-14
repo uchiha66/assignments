@@ -1,0 +1,106 @@
+* {
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.container1 {
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+  
+}
+
+#stripe1{
+    height: 230px;
+    width: 100px;
+    color: blue;
+    background-color: blue;
+    display: inline-block;
+    
+}
+#stripe2{
+    height: 230px;
+    width: 100px;
+    background-color: rgb(240, 240, 240);
+    display: inline-block;
+    
+
+}
+#stripe3{
+    height: 230px;
+    width: 100px;
+    background-color: red;
+    display: inline-block;
+}
+.blacks{
+    height: 100px;
+    width: 300px;
+    background-color: black;
+    margin-top: 20pt;
+}
+.reds{
+    height: 100px;
+    width: 300px;
+    background-color:red
+}
+.yellows{
+    height: 100px;
+    width: 300px;
+    background-color:yellow
+}
+.red{
+    height: 100px;
+    width: 300px;
+    background-color:red;
+    margin-top: 20pt;
+
+}
+.blue{
+    height: 100px;
+    width: 300px;
+    background-color:blue;
+    margin-top: 10pt;
+}
+.green{
+    height: 100px;
+    width: 300px;
+    background-color:green;
+    margin-top: 10pt;
+}
+
+
+.container2 {
+    display: inline-block;
+    position: absolute;
+    padding-left: 10pt;
+}
+
+.mald{ 
+    height: 100px;
+    width: 300px;
+    background-color:green;
+    border: solid red 30pt;
+    margin-top: 10pt;
+}
+.white{
+    position: absolute;
+    height: 60px;
+    top: 64px;
+    bottom: 0;
+    left: 168px;
+    width: 60px;
+    background-color:white;
+    border-radius: 50px
+}
+.gross{
+    position: absolute;
+    height: 60px;
+    top: 64px;
+    bottom: 0;
+    left: 188px;
+    width: 60px;
+    background-color:green;
+    border-radius: 50px
+}
