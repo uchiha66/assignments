@@ -1,4 +1,4 @@
-var employees = []
+var employees = [""]
 
 function Employee(name, jobT, salery, status){
     this.name = name
@@ -8,10 +8,19 @@ function Employee(name, jobT, salery, status){
 
 }
 var employee1 = new Employee("rick","shut up","more","whenever")
-console.log(employee1)
+
 var employee2 = new Employee("morty","doboy","nothin","24d")
-console.log(employee2)
+
 var employee3 = new Employee("noob","broo","stacks","fulltime")
-console.log(employee3)
+
 var employee4 = new Employee("jerry","broke","none","never")
-console.log(employee4)
+
+
+employees.push(employee1)
+
+employees.push(employee2)
+
+employees.push(employee3)
+
+employees.push(employee4)
+console.log(employees)
