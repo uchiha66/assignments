@@ -1,0 +1,18 @@
+#header{
+    background-color: skyblue;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    /* font-size:50%; */
+}
+.title{
+    height: 100%;
+    font-weight: bold;
+    font-size: 100px;
+    text-align: justify;
+    width: 100%;
+    text-align: center;
+}
+body{
+    background-color: rgba(230, 20, 20, 0.945);
+}
