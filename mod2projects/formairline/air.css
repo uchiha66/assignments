@@ -1,9 +1,19 @@
+body{
+    background-image: url(https://www.telegraph.co.uk/content/dam/Travel/2018/January/white-plane-sky.jpg?imwidth=450);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;
+    margin: 0;
+}
 #header{
-    background-color: skyblue;
+    background-repeat: no-repeat;
     height: 300px;
-    width: 100%;
+    width: auto;
     text-align: center;
-    /* font-size:50%; */
+    background-image: url(https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/weather/cloud/cumulus-cloud.jpg/cumulus-cloud.jpg/metofficegovuk%3AheroMedium);
+    margin: 0px;
+    background-size: cover;
 }
 .title{
     height: 100%;
@@ -12,7 +22,4 @@
     text-align: justify;
     width: 100%;
     text-align: center;
-}
-body{
-    background-color: rgba(230, 20, 20, 0.945);
 }

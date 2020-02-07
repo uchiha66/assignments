@@ -18,7 +18,8 @@ form.addEventListener("submit", (event) => {
     
     // h1.textContent = firstN + " " + lastn + " " +agge
     // h1.textContent = `${firstN} ${lastn} ${agge}`
-    window.alert(`First Name: ${firstN}\n Last Name: ${lastn}\n Age: ${agge}\n Gender: ${Genn}\n City: ${city} Meal: ${foo}`)
+    window.alert(`First Name: ${firstN}\n Last Name: ${lastn}\n Age: ${agge}\n Gender: ${Genn}\n City: ${city}
+ Meal: ${foo}`)
 
     
     document.getElementsByTagName("body")[0].append(h1)
