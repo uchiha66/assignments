@@ -1,0 +1,22 @@
+   *{
+       margin: 0;
+       padding: 0;
+   }
+   body { 
+	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	color: #555753; 
+	background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right; 
+	margin: 0; 
+	padding: 0;
+    }
+    .wrapper{
+        display: grid; 
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .intro > header{
+        background-color: #14c7be;
+        grid-column: 1 / 4;
+        /* grid-row: 1 / ; */
+        text-align: center; 
+    }
