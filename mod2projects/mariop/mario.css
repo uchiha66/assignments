@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    /* background-attachment: fixed; */
+    background-color: tan;
+}
+.con{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 100px);
+        grid-gap: 400px;
+        margin-left: 178px;
+        margin-top: 104px;
+}
+
+
+.mo{
+    background-color: tomato;
+    border: solid black 10px;
+    width:  80px;
+    height: 80px;
+    /* margin: 88px 82px 20px; */
+    /* padding: 20px 50px 32px 34px; */
+}
+.bob{
+    background-color:tomato;
+    border: solid black 10px;
+    height: 80px;
+    width: 80px;
+    /* margin: auto; */
+    /* padding: 20px 50px 32px 34px; */
+}
+.goom{
+    background-color:tomato;
+    border: solid black 10px;
+    height: 80px;
+    width: 80px;
+     /* margin: -161px 1000px 20px; */
+    /* padding: 20px 50px 32px 34px; */
+}
+.cheep{
+    background-color:tomato;
+    border: solid black 10px;
+    height: 80px;
+    width: 80px;
+    /* margin: 366px 1016px 20px 999px; */
+    /* padding: 20px 50px 32px 34px; */
+}
+img{
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+}
