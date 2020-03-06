@@ -7,7 +7,7 @@ body{
 }
 .con{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, 100px);
         grid-gap: 400px;
         margin-left: 178px;
@@ -20,6 +20,7 @@ body{
     /* border: solid black 10px; */
     width:  90px;
     height: 90px;
+    grid-column: 2 / 3 ;
   
 }
 .bob{
@@ -27,6 +28,8 @@ body{
     /* border: solid black 10px; */
     height: 80px;
     width: 80px;
+    /* grid-column: 1 /2 ; */
+    grid-row: 2 / 2 ;
   
 }
 .goom{
@@ -41,6 +44,7 @@ body{
     /* border: solid black 10px; */
     height: 96px;
     width: 96px;
+    grid-row: 2 / 2;
    
 }
 img{
@@ -54,4 +58,9 @@ img{
     text-align: center;
     padding: 43px 0px 58px 0px;
     font-size: 4em;
+}
+.coin{
+    height: 18px;
+    width: 18px;
+
 }
